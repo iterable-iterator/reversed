@@ -11,6 +11,11 @@ See [docs](https://iterable-iterator.github.io/reversed/index.html).
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
+```js
+import {reversed} from '@iterable-iterator/reversed';
+reversed('ABC') ; // C B A
+```
+
 [![License](https://img.shields.io/github/license/iterable-iterator/reversed.svg)](https://raw.githubusercontent.com/iterable-iterator/reversed/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/reversed.svg)](https://www.npmjs.org/package/@iterable-iterator/reversed)
 [![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/reversed/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/reversed/actions/workflows/ci:test.yml?query=branch:main)
