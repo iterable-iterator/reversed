@@ -1,11 +1,11 @@
 import test from 'ava';
 
-import {list, reversed} from '../../../src/index.js';
+import {reversed} from '../../src/index.js';
 
 test('reversed', (t) => {
 	const x = function (A, B) {
-		t.deepEqual(list(reversed(A)), B);
-		t.deepEqual(list(reversed(B)), A);
+		t.deepEqual(Array.from(reversed(A)), B);
+		t.deepEqual(Array.from(reversed(B)), A);
 	};
 
 	x([], []);
