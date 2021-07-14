@@ -6,14 +6,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const reversed = require( '@iterable-iterator/reversed' ) ;
+const reversed = await import( '@iterable-iterator/reversed' ) ;
 // or
 import * as reversed from '@iterable-iterator/reversed' ;
 ```
