@@ -15,7 +15,7 @@ reversed('ABC') ; // C B A
 
 [![License](https://img.shields.io/github/license/iterable-iterator/reversed.svg)](https://raw.githubusercontent.com/iterable-iterator/reversed/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/reversed.svg)](https://www.npmjs.org/package/@iterable-iterator/reversed)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/reversed/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/reversed/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/iterable-iterator/reversed/ci:test.yml?branch=main&event=push&label=tests)](https://github.com/iterable-iterator/reversed/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/reversed.svg)](https://github.com/iterable-iterator/reversed/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/reversed.svg)](https://github.com/iterable-iterator/reversed/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/reversed.svg)](https://www.npmjs.org/package/@iterable-iterator/reversed)
