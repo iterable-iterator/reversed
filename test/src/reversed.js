@@ -1,5 +1,4 @@
 import test from 'ava';
-
 import {reversed} from '../../src/index.js';
 
 const macro = (t, A, B) => {
